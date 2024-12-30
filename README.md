@@ -3,12 +3,15 @@ ML model used for real time network anomaly detection.
 
 
 Real-Time Network Anomaly Detection
+
 This repository contains a comprehensive project designed to monitor and analyze network traffic in real-time for anomalies using machine learning. The system integrates components for data collection, cleaning, anomaly simulation, training, and live traffic analysis.
 
 Purpose
+
 This project was created as a learning exercise to improve my C++ programming skills and to showcase my data analytics and machine learning engineering capabilities. It is designed as a portfolio project for my resume to demonstrate end-to-end system design and implementation skills.
 
 Features
+
 Real-Time Monitoring: A C++ packet sniffer captures network traffic and sends it to a Python socket server for real-time analysis.
 Machine Learning Integration: An Isolation Forest model trained on processed and labeled data detects anomalous traffic patterns.
 Data Cleaning: A Python script preprocesses and cleans raw network traffic data to ensure quality for model training.
